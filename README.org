@@ -1,0 +1,27 @@
+** prerequisites
+#+BEGIN_SRC
+$ nvm ls
+         v4.7.0
+        v6.13.1
+->      v6.14.2
+        v8.11.1
+default -> 6 (-> v6.14.2)
+node -> stable (-> v8.11.1) (default)
+stable -> 8.11 (-> v8.11.1) (default)
+iojs -> N/A (default)
+lts/* -> lts/carbon (-> v8.11.1)
+lts/argon -> v4.9.1 (-> N/A)
+lts/boron -> v6.14.2
+lts/carbon -> v8.11.1
+
+#+END_SRC
+
+** instructions
+#+BEGIN_SRC
+`nvm install 8` (6 should work)
+`npm install`
+`npm run build`
+`npm run react-build`
+`npm start`
+#+END_SRC
+
