@@ -1,14 +1,14 @@
 {
 
-    
+
     "express": {
         "view cache": false,
-        "view engine": "js",
+        "view engine": "ejs",
         "views": "path:./.build/templates"
     },
-    
 
-    
+
+
     "view engines": {
         "js": {
             "module": "engine-munger",
@@ -24,11 +24,15 @@
                     }
                 ]
             }
+        },
+        "ejs": {
+            "module": "ejs",
+            "renderer": "renderFile"
         }
     },
-    
 
-    
+
+
 
     "specialization": {
     },

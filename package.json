@@ -19,6 +19,7 @@
     "engine-munger": "^0.2.9",
     "eslint": "^2.10.3",
     "express": "^4.12.2",
+    "ejs": "^2.4.1",
     "kraken-js": "^2.2.0"
   },
   "devDependencies": {
