@@ -7,8 +7,6 @@
         "views": "path:./.build/templates"
     },
 
-
-
     "view engines": {
         "js": {
             "module": "engine-munger",
@@ -30,10 +28,7 @@
             "renderer": "renderFile"
         }
     },
-
-
-
-
+    
     "specialization": {
     },
 

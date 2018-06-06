@@ -23,5 +23,14 @@
         "browser": true,
         "mocha": true
     },
+    "ecmaFeatures": {
+        "blockBindings": true,
+        "modules": true
+    },
+    "parser": "babel-eslint",
+    // to support ES6
+    "plugins": [
+        "eslint-plugin-react"
+    ],
     "extends": "eslint:recommended"
 }

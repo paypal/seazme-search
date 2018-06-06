@@ -1,0 +1,13 @@
+.paypal-header-blue {
+    background: linear-gradient(to right, #004fa0 0%, #009add 50%, #004fa0 100%)  !important; 
+}
+
+.ui .container .item {
+    color: white !important;
+}
+
+.seazme-logo {
+    margin-top: 1%;
+    font-size: 2em;
+    color: white;
+}

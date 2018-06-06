@@ -1,0 +1,76 @@
+.page-body {
+    padding: 2em 8em ;
+}
+
+.dataSource-table-header {
+    color: rgb(0, 48, 135);
+}
+
+.status-label div span {
+    text-transform: capitalize !important;
+    padding-left: 0px !important;
+    padding-right: 0px  !important;  
+}
+
+.dataSource-table-header th {
+    color: rgb(0, 48, 135) !important;
+}
+
+td {
+    white-space: unset !important;
+}
+
+tbody {
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.ds-container-fluid {
+    padding: 4em 5em;
+    background-color: white;
+}
+
+.uk-label-success {
+    background-color: #32d296 !important;
+    color: #fff !important;
+  }
+  
+  .uk-label-warning {
+    background-color: #faa05a !important;
+    color: #fff !important;
+  }
+  
+  .uk-label-danger {
+    background-color: #f0506e !important;
+    color: #fff !important;
+  }
+  
+  .fade-in {
+    animation-name: fade-in-opacity;
+    animation-iteration-count: 1;
+	animation-timing-function: ease-in;
+    animation-duration: 2s;
+    opacity: 1;
+    }
+
+.ui.secondary.pointing.menu .active.item {
+    border-color: #004fa0 !important;
+    color: #004fa0 !important;
+}
+
+.pagination-seazme .ui.menu .item {
+    color: grey !important;
+}
+@keyframes fade-in-opacity {
+    0% {
+        opacity: 0;
+        -webkit-transform: translate3d(-100%, 0, 0);
+        transform: translate3d(-100%, 0, 0);
+      }
+    
+      100% {
+        opacity: 1;
+        -webkit-transform: translate3d(0, 0, 0);
+        transform: translate3d(0, 0, 0);
+      }
+}

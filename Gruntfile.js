@@ -12,8 +12,8 @@ module.exports = function (grunt) {
     
     // Register group tasks
     grunt.registerTask('build', ['eslint', 'eslint', 'dustjs', 'copyto']);
-
+    grunt.option("force",true);
     grunt.registerTask('test', [ 'eslint', 'mochacli' ]);
-
+    grunt.option("force",true);
     
 };
